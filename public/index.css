@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+
+
+
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    /* background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ); */
+      background: rgb(2,0,36);
+
+      background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(3,37,74,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('pictures/cybernautsgif.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+@font-face {
+    font-family: technopath;
+    src: url(fonts/Technopath.otf);
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-item a {
+    padding: 30px;
+
+}
+
+.nav-item {
+    font-size: 130%;
+    font-family: technopath;
+    margin-right: 5%;
+}
+
+.nav-link {
+    color: white !important;
+
+
+}
+.navbar-toggler {
+    color: white!important;
+}
+.navbar-toggler-icon{
+    color: aliceblue!important;
+    background-color: aliceblue;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+    ;
+}
+
+.navbar-brand {
+    font-family: technopath;
+}
+
+.data {
+    height: 100vh;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+ 
+    color: aliceblue;
+    
+
+}
+.text{
+    font-family: technopath;
+    text-align: center;
+   
+    font-size: 3rem;
+}

@@ -1,0 +1,110 @@
+#VM {
+    height: 100vh;
+    width: 100vw;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: technopath;
+    src: url("fonts/Technopath.otf");
+}
+
+@font-face {
+    font-family: pristina;
+    src: url("fonts/pristina.ttf");
+}
+
+@font-face {
+    font-family: technical;
+    src: url("fonts/TechnicalDrawing.ttf");
+}
+
+#visionheading1 {
+    font-family: technopath;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: black;
+    -webkit-text-stroke: 0.1px white;
+    margin: 0;
+}
+
+#visionheading2 {
+    font-family: pristina;
+    display: flex;
+    justify-content: center;
+    font-weight: 1;
+    font-size: 4rem;
+    margin: 0;
+    position: relative;
+    top: -2rem;
+}
+
+.arrowvision {
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+#visionheading {
+    padding-top: 5rem;
+}
+
+#visiontext {
+    width: 80vw;
+    padding: 0 10vw; /* Simplified padding for text */
+    font-family: technical;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 1;
+    line-height: 2;
+    height: 100vh;
+    margin-top: 5vh
+}
+
+#visiontext p {
+    font-family: technical;
+}
+
+.visionarrow {
+    font-size: 1.5rem; /* Adjust arrow size as needed */
+    cursor: pointer;
+    position: relative;
+    top: 10vh;
+    font-weight: light ;
+}
+
+#visionarrow1 {
+    padding-left: 2rem; /* Adjust spacing */
+}
+
+#visionarrow2 {
+    padding-right: 2rem; /* Adjust spacing */
+}
+
+@media (min-width: 900px) {
+    #visiontext {
+        padding: 0 15vw; /* Adjust padding for larger screens */
+    }
+
+    #visionarrow1 {
+        padding-left: 10rem; /* Adjust spacing for larger screens */
+    }
+
+    #visionarrow2 {
+        padding-right: 10rem; /* Adjust spacing for larger screens */
+    }
+    #visionheading1{
+        font-size:6 rem;
+    }
+    #visionheading2{
+        font-size:6 rem;
+        top: -2rem;
+    }
+    .visionarrow{
+        font-size: 2rem;
+    }
+}

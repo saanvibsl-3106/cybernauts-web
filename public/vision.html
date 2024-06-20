@@ -16,8 +16,18 @@
     <div id="vision">
         <div id="visionheading">
             <h1 id="visionheading1">VISION</h1>
-            <h1 id="visionheading2">Vision</h1>
         </div>
+        <div class="light"></div>
+        <script type="text/javascript">
+            var pos= document.documentElement;
+            pos.addEventListener('mousemove', e=>{
+                pos.style.setProperty('--x',e.clientX +'px')
+                pos.style.setProperty('--y', e.clientY + 'px')
+            })
+        </script>
+         <div class="vision2">
+            <h1 id="visionheading2">Vision</h1>
+         </div>
         <div class="arrowvision">
             <i class="fas fa-angle-left visionarrow" id="visionarrow1"></i>
 

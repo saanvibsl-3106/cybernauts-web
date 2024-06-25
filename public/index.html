@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <style>
-        html{
-           scroll-behavior:smooth;
+        html {
+            scroll-behavior: smooth;
         }
-       </style>
-       <script type="module" src="index.js"></script>
+    </style>
+    <script type="module" src="index.js"></script>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="vision.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -23,7 +29,7 @@
                 <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid" style="background-color: black;">
                         <!-- <a class="navbar-brand" href="#">CYBERNAUTS</a> -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -37,13 +43,14 @@
                                     <a class="nav-link active" href="#">ABOUT US</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">EVENTS</a>
+                                    <a class="nav-link active" href="/saanvivision">VISION</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">PROJECTS</a>
+                                    <a class="nav-link active" href="/arvindteam">TEAM</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">HEADS</a>
+                                    <a class="nav-link active" href="/riteshhead">HEADS</a>
+                                    
                                 </li>
 
                             </ul>
@@ -53,19 +60,281 @@
             </div>
         </div>
     </section>
+
+    <div id="app">
+        <div id="hero">
+            <h1>CREATIVE & <BR /> CRAZY IDEAS <BR /> MEETS CODE</h1>
+            <a target="_blank"></a>
+        </div>
+    </div>
+<!-- <section class="events">
+    <div class="events_body">
+        <div class="events-title">the</div>
+        <div class="EVENT">EVENTS<span>&</span></div>
+        <div class="workshops">WORKSHOPS<span>organised</span></div>
+        <div class="timeline">
+            <div class="container left-container">
+                <div class="imgcon"></div>
+                <div class="text-box1">
+                    <h1 class="evehead">EVENT 1</h1>
+                    <p class="event_name">INDUCTIONS</p>
+                    <div class="date">25-08-2023</div>
+                    <p class="content">The CYBERNAUTS induction event welcomed new members into our dynamic coding community, celebrating innovation, collaboration, and a passion for technology. Highlights included interactive workshops and inspiring talks from industry leaders.</p>
+                   
+                </div>
+            </div>
+            <div class="container right-container">
+                <img src="3.png">
+                <div class="text-box2">
+                    <h1>EVENT 2</h1>
+                    <p class="event_name">INTRODUCTORY SESSIONS</p>
+                    <div class="date">05-09-2023</div>
+                    <p class="content"> Club, recently conducted its introductory session. Attendees were introduced to the club's mission, upcoming projects, and the exciting opportunities that lie ahead. This session marks the beginning of our collaborative journey in the world of coding and technology.</p>
+                   
     
-        <div  id="app"> 
-            <div id="hero"> 
-                <h1>CREATIVE & <BR/> CRAZY IDEAS <BR/> MEETS CODE</h1> 
-                <a target="_blank"></a>
+                </div>
+            </div>
+    
+            <div class="container left-container">
+                <div class="imgcon"></div>
+                <div class="text-box3">
+                    <h1>EVENT 3</h1>
+                    <p class="event_name">WEB-D WORKSHOP</p>
+                    <div class="date">21-10-2023</div>
+                    <p class="content">An engaging Web Development (WebD) workshop where students were introduced to the basics of web development, including HTML, CSS, and JavaScript. Participants also completed hands-on projects, creating their own web pages and applications.</p>
+               
+    
+                </div>
+            </div>
+    
+            <div class="container right-container">
+                <img src="3.png">
+                <div class="text-box4 ">
+                    <h1>EVENT 4</h1>
+                    <p class="event_name">DSA (Data Structures & Algorithms)</p>
+                    <div class="date">25-12-2023</div>
+                    <p class="content"> Workshop on Data Structures and Algorithms (DSA) held . Attendees were introduced to core concepts and learned how to effectively navigate through various data structures and algorithms. This workshop provided a solid foundation for understanding and applying DSA in real-world scenarios.</p>
+                  
+                </div>
+            </div>
+            <div class="container left-container">
+                <div class="imgcon"></div>
+                <div class="text-box5">
+                    <h1>EVENT 5</h1>
+                    <p class="event_name">MACHINE LEARNING & AI/ML</p>
+                    <div class="date">15-06-2024</div>
+                    <p class="content">Club recently hosted a captivating event on Machine Learning and AI/ML fundamentals. Attendees explored key concepts, essential algorithms, and real-world applications. This inspiring session has beautifully equipped participants to dive deeper into the fascinating world of AI.</p>
+                    
+                  
+    
+                </div>
+            </div>
+           
+        </div>
+        <div class="se"><a>See More</a><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+    
+</section> -->
+<section class="diyagallery">
+    
+    <div class="diya">
+        <div class="text32">
+            <div class="glimpse">GLIMPSE<br/>
+                <div class="events">events</div>
+        </div>
+            <!-- <div class="events">events</div> -->
+            <div class="of-past">OF PAST</div>
+        </div>
+        <div class="wholegallery">
+        <div class="scroll-container" style="margin-left:10%">
+            <div class="scroll-content">
+                <!-- 1st-->
+                 <div class="slide"><img src="photoss1/image.png"></div> 
+                <div class="slide"><img src="photoss1/image1.png"></div>
+                <div class="slide"><img src="photoss1/image2.png"></div>
+                 <div class="slide"><img src="photoss1/image3.jpeg"></div>
+                <div class="slide"><img src="photoss1/image4.jpeg"></div>
+                <div class="slide"><img src="photoss1/image5.jpeg"></div> 
             </div>
         </div>
-    
+            <!--2nd-->
+            <div class="scroll-container">
+            <div class="scroll-content">
+                 <div class="slide"><img src="photoss1/image6.jpeg"></div> 
+                <div class="slide"><img src="photoss1/image7.jpeg"></div>
+                <div class="slide"><img src="photoss1/image8.jpeg"></div> 
+                 <div class="slide"><img src="photoss1/image9.jpeg"></div> 
+                 <div class="slide"><img src="photoss1/image2.png"></div>
+                 <div class="slide"><img src="photoss1/image.png"></div>
+            </div>
+        </div>
+            <!--3rd-->
+            <div class="scroll-container" style="margin-right:10%">
+            <div class="scroll-content">
+                 <div class="slide"><img src="photoss1/image6.jpeg"></div> 
+                <div class="slide"><img src="photoss1/image2.png"></div>
+                <div class="slide"><img src="photoss1/image3.jpeg"></div> 
+                 <div class="slide"><img src="photoss1/image4.jpeg"></div> 
+                 <div class="slide"><img src="photoss1/image5.jpeg"></div>
+                 <div class="slide"><img src="photoss1/image.png"></div> 
+            </div>
+        </div>
+    </div>
+        <script>
+            document.addEventListener("DOMContentLoaded",()=>{
+                const scrollContent=document.querySelector('.scroll-content');
+                const images=scrollContent.children;
+                const numImages=images.length;
+                for(let i=0;i<numImages;i++){
+                    let clone=images[i].cloneNode(true);
+                    scrollContent.appendChild(clone);
+                }
+            })
+        </script>
+        </div>
+</section>
 
 
+<section class="prefooter">
+    <div class="contact-us">
+        <div class="left">
+          <div class="chotu">
+            Let's <br />
+            Talk
+          </div>
+          <div class="ani">
+            <h2>Have a Project <br />in mind? <br />contact us!</h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="subscribe">
+            <div class="inputbox">
+              <input type="text" required="required" />
+              <span>Your email address</span>
+              <i></i>
+            </div>
+          </div>
+          <div class="msg">
+            <h5>DROP US A LINE:</h5>
+            <div class="email">
+              <span><i class="fa-regular fa-envelope"></i></span>
+              <span>cybernauts@nitj.ac.in</span>
+            </div>
+          </div>
+          <div class="social">
+            <h5>Our Social:</h5>
+            <div class="icons">
+              <a
+                href="https://www.linkedin.com/in/cybernauts-nitj-717a7a28a/"
+                target="_blank"
+                ><h4>Linkedin</h4></a
+              >
+  
+              <a
+                href="https://discord.com/channels/1147565564357771324/1147565564357771326"
+                ><h4>Discord</h4></a
+              >
+              <h4>Instagram</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer11">
+        <footer>
+            <div id="imgpara">
+              <div class="logo">
+                <div id="img"></div>
+                <h3>
+                  Cyber<i class="fa-solid fa-rocket"><span class="flame"></span></i
+                  ><span>Nauts</span>
+                </h3>
+              </div>
+      
+              <div id="para">
+                <p>
+                  At Cybernauts, members dive into workshops, seminars, hackathons,and
+                  competitions, gaining new skills, sharing ideas, connecting with
+                  peers and industry pros. Join us for exciting events that fuel your
+                  growth and creativity!
+                </p>
+              </div>
+            </div>
+            <div id="links1">
+              <center>
+                <h5>Website Links</h5>
+                <ul>
+                  <a href="" style="text-decoration: none"><li>Home</li></a>
+                  <a href="" style="text-decoration: none"><li>About</li></a>
+                  <a href="" style="text-decoration: none"><li>Gallery</li></a>
+                  <a href="" style="text-decoration: none"><li>Faqs</li></a>
+                </ul>
+              </center>
+            </div>
+            <div id="links2">
+              <center>
+                <h5>Explore</h5>
+                <ul>
+                  <a href="" style="text-decoration: none"><li>events</li></a>
+                  <a href="" style="text-decoration: none"><li>Contact Us</li></a>
+                  <a href="" style="text-decoration: none"><li>Give Feedback</li></a>
+                  <a href="" style="text-decoration: none"><li>projects</li></a>
+                </ul>
+              </center>
+            </div>
+            <div id="links3">
+              <center>
+                <h5>Follow Us</h5>
+                <ul>
+                  <a href="" style="text-decoration: none" id="icons"
+                    ><li>
+                      <i class="fa-brands fa-discord" style="font-size: 1.75vw"></i>
+                      <span>Discord</span>
+                    </li></a
+                  >
+                  <a href="" style="text-decoration: none" id="icons"
+                    ><li>
+                      <i class="fa-brands fa-instagram" style="font-size: 2vw"></i
+                      ><span>Instagram</span>
+                    </li></a
+                  >
+                  <a href="" style="text-decoration: none" id="icons"
+                    ><li>
+                      <i class="fa-brands fa-github" style="font-size: 2vw"></i
+                      ><span>Github</span>
+                    </li></a
+                  >
+                  <a href="" style="text-decoration: none" id="icons">
+                    <li>
+                      <i class="fa-brands fa-linkedin" style="font-size: 2vw"></i
+                      ><span>Linkedin</span>
+                    </li></a
+                  >
+                </ul>
+              </center>
+            </div>
+            <center>
+              <div id="bottomline1">
+                <p>
+                  "EMPOWERING THE FUTURE WITH SEAMLESS INNOVATION WHERE TECHNOLOGY
+                  MEETS LIMITLESS POTENTIAL"
+                </p>
+              </div>
+            </center>
+            <i class="line"></i>
+            <center>
+              <div id="bottomline2">
+                <p>
+                  Copyright <i class="fa-regular fa-copyright"></i> 2024 Cybernauts
+                  Society
+                </p>
+              </div>
+            </center>
+          </footer>
+    </section>
 
 
-
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

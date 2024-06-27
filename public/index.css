@@ -67,7 +67,7 @@ section {
 }
 
 .nav-link:hover {
-    color: yellow !important;
+    color: pink!important;
     ;
 }
 
@@ -837,7 +837,7 @@ body,html,#app{
     padding:0;
     width:100%;
     background-color: #000000;
-    overflow-y:hidden;
+    /* overflow-y:hidden; */
 }
 .wholegallery{
     overflow:hidden;
@@ -845,6 +845,8 @@ body,html,#app{
     align-items:center; 
     justify-content:center;
     margin-top:2%;
+    height: 90vh;
+    margin-bottom: 2%;
 }
 
 .text32{

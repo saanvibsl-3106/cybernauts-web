@@ -37,3 +37,7 @@ app.get("/",function(req,resp){
     let filepath=process.cwd()+"/public/vision.html";
     resp.sendFile(filepath);
  })
+ app.get("/events",function(req,resp){
+    let filepath=process.cwd()+"/public/baani.html";
+    resp.sendFile(filepath);
+ })

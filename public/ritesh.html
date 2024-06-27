@@ -38,7 +38,7 @@
     <div class="inline-center">
         <p class="font-size4" style="padding-left: 2.5rem;">
             <span class="poppins-regular-italic">under</span>
-            <span style="font-family: Pristina,Regular;">the</span>
+            <span style="font-family: Pristina,Regular;" class="embbeded_font">the</span>
         </p>
         <p class="font-size4">
             <span style="font-family: Technical Drawing,Regular;">GUIDANCE</span>
@@ -54,8 +54,10 @@
 
 <!-- Faculty Information -->
 <div class="faculty">
-    <div style="display: inline; margin: 16%;" id="faculty-images" >
-        <img style="mix-blend-mode: luminosity;" src="ritesh_images/HOD_sir1.png">
+    <div style="display: inline;" id="faculty-images" >
+        <div class="responsive-container">
+            <img style="mix-blend-mode: luminosity;" src="ritesh_images/HOD_sir1.png" loading="lazy" class="responsive-image">
+        </div>
         <span style="color:whitesmoke;" >
             <p class="center">
                 Mr.D K Gupta
@@ -66,8 +68,10 @@
             <p class="center">(Information Technology)</p>
         </span>
     </div>
-    <div style="display: inline; margin: 16%;" id="faculty-images">
-        <img style="mix-blend-mode: luminosity;" src="ritesh_images/Nisha_m.png">
+    <div style="display: inline;" id="faculty-images">
+        <div class="responsive-container">
+            <img style="mix-blend-mode: luminosity;" src="ritesh_images/Nisha_m.png" loading="lazy" class="responsive-image">
+        </div>
         <span style="color:whitesmoke;" >
             <p class="center">
                 Dr. Nisha Chaurasia
@@ -109,7 +113,7 @@
 <div class="container">
     <div class="projects-container" id="projects-container">
         <div  class="image-box">
-            <img  class="project-img" src="ritesh_images/Arvind Project.png" > 
+            <img  class="project-img" src="ritesh_images/Arvind Project.png" loading="lazy" > 
             <div class="overlay">
                 <div class="text">
                     <p>
@@ -137,7 +141,7 @@
             </div>
         </div>
         <div class="image-box">
-            <img  class="project-img" src="ritesh_images/Ritesh Project.png" > 
+            <img  class="project-img" src="ritesh_images/Ritesh Project.png" loading="lazy" > 
             <div class="overlay">
                 <div class="text">
                     <p>
@@ -165,7 +169,8 @@
             </div>
         </div>
         <div class="image-box">
-            <img  class="project-img" src="ritesh_images/Saanvi Project.png" >
+            <img  class="project-img" src="ritesh_images/Saanvi Project.png"  loading="lazyloading
+">
             <div class="overlay">
                 <div class="text">
                     <p>
@@ -193,7 +198,8 @@
             </div>
         </div>
         <div class="image-box">
-            <img  class="project-img" src="ritesh_images/Work 2.png" > 
+            <img  class="project-img" src="ritesh_images/Work 2.png" loading="lazy"
+> 
             <div class="overlay">
                     <div class="text">
                         Your Hover Text
@@ -202,7 +208,8 @@
         </div>
         <div class="extra_projects" id="extra_project1">
             <div class="image-box">
-                <img  class="project-img" src="ritesh_images/Work 2.png" > 
+                <img  class="project-img" src="ritesh_images/Work 2.png" loading="lazy"
+    > 
                 <div class="overlay">
                     <div class="text">
                         Your Hover Text
@@ -210,7 +217,8 @@
                 </div>
             </div>
             <div class="image-box">
-                <img  class="project-img" src="ritesh_images/Work 2.png" > 
+                <img  class="project-img" src="ritesh_images/Work 2.png" loading="lazy"
+    > 
                 <div class="overlay">
                     <div class="text">
                         Your Hover Text
@@ -220,7 +228,8 @@
         </div>
         <div class="extra_projects" id="extra_project2">
             <div class="image-box">
-                <img  class="project-img" src="ritesh_images/Work 2.png" > 
+                <img  class="project-img" src="ritesh_images/Work 2.png" loading="lazy"
+    > 
                 <div class="overlay">
                     <div class="text">
                         Your Hover Text
@@ -228,7 +237,8 @@
                 </div>
             </div>
             <div class="image-box">
-                <img  class="project-img" src="ritesh_images/Work 2.png" > 
+                <img  class="project-img" src="ritesh_images/Work 2.png" loading="lazy"
+    > 
                 <div class="overlay">
                     <div class="text">
                         Your Hover Text
@@ -244,7 +254,7 @@
 
 <!-- Explore All and Show less Button -->
 <div class="center explore_btn">
-    <a style="--clr: #7808d0" class="button " id="Explore_Button">
+    <a style="--clr: #FF6E06" class="button " id="Explore_Button">
         <span class="button__icon-wrapper">
             <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
                 <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z">
@@ -255,7 +265,9 @@
                 </path>
             </svg>
         </span>
-        Explore All
+        <p class="explore_btn_size">
+            Explore All
+        </p>
     </a>
 </div>
 <!-- Explore All and Show less Button -->

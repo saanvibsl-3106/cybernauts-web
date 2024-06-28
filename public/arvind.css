@@ -93,7 +93,7 @@
     background-attachment: fixed; /* Fix the background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; 
-  
+    /* overflow-x: hidden; */
   }
   
   .container {

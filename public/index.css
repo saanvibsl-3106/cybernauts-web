@@ -59,7 +59,8 @@ section {
 }
 
 .nav-link:hover {
-  color: rgb(218, 80, 167) !important;
+  color: #d246d2 ! important;
+  
 }
 
 .navbar-brand {

@@ -49,14 +49,17 @@ function handleScrollEffects() {
       const innerleft = document.querySelector('.inner-left');
       const currentyear26 = document.querySelector('#year26');
       currentyear26.style.textAlign="center";
+      currentyear26.style.fontSize="5rem";
      
       currentyear26.textContent="2026";
       const currentyear27 = document.querySelector('#year27');
      currentyear27.textContent="2027";
      currentyear27.style.textAlign="center";
+     currentyear27.style.fontSize="5rem";
       const currentyear28 = document.querySelector('#year28');
      currentyear28.textContent="2028";
      currentyear28.style.textAlign="center";
+     currentyear28.style.fontSize="5rem";
       
       innerleft.style.display='none';
       years.forEach(year => {
@@ -97,3 +100,119 @@ function handleScrollEffects() {
       handleScrollEffects();
     }, 250); // Adjust debounce time as needed
   });
+  const clubarrow = document.querySelector(".clubarrow");
+const head271name = document.querySelector(".head271name"); // Assuming there's a single element with this class
+const head272name = document.querySelector(".head272name"); // Assuming there's a single element with this class
+const head271image = document.querySelector("#head271image");
+const head272image = document.querySelector("#head272image");
+
+let a = 0;
+
+clubarrow.addEventListener("click", () => {
+    switch (a) {
+        case 0:
+            head271name.textContent = "Diya";
+            head272name.textContent = "Kunishka";
+            head271image.src = "headBW/7.png";
+            head272image.src = "headBW/6.png";
+            break;
+        case 1:
+            head271name.textContent = "Pratham";
+            head272name.textContent = "Ritesh";
+            head271image.src = "headBW/2.png";
+            head272image.src = "headBW/3.png";
+            break;
+        case 2:
+            head271name.textContent = "Saanvi";
+            head272name.textContent = "Yaten";
+            head271image.src = "headBW/8.png";
+            head272image.src = "headBW/1.png";
+            break;
+        case 3:
+            head271name.textContent = "Arvind";
+            head272name.textContent = "Baani";
+            head271image.src = "headBW/4.png";
+            head272image.src = "headBW/5.png";
+            break;
+    }
+
+    // Increment a and loop back to 0 after 3
+    a = (a + 1) % 4;
+});
+
+// Mouseover and Mouseout event listeners for head271image
+head271image.addEventListener('mouseover', function() {
+    switch (a) {
+        case 0:
+            head271image.src = "headCLR/4.png";
+            break;
+        case 1:
+            head271image.src = "headCLR/7.png";
+            break;
+        case 2:
+            head271image.src = "headCLR/2.png";
+            break;
+        case 3:
+            head271image.src = "headCLR/8.png";
+            break;
+    }
+});
+
+
+
+// Mouseover and Mouseout event listeners for head272image
+head272image.addEventListener('mouseover', function() {
+    switch (a) {
+        case 0:
+            head272image.src = "headCLR/5.png";
+            break;
+        case 1:
+            head272image.src = "headCLR/6.png";
+            break;
+        case 2:
+            head272image.src = "headCLR/3.png";
+            break;
+        case 3:
+            head272image.src = "headCLR/1.png";
+            break;
+    }
+});
+
+// Mouseout event listeners for head271image
+head271image.addEventListener('mouseout', function() {
+  switch (a) {
+      case 0:
+          head271image.src = "headBW/4.png";
+          break;
+      case 1:
+          head271image.src = "headBW/7.png";
+          break;
+      case 2:
+          head271image.src = "headBW/2.png";
+          break;
+      case 3:
+          head271image.src = "headBW/8.png";
+          break;
+  }
+});
+
+// Mouseout event listeners for head272image
+head272image.addEventListener('mouseout', function() {
+  switch (a) {
+      case 0:
+          head272image.src = "headBW/5.png";
+          break;
+      case 1:
+          head272image.src = "headBW/6.png";
+          break;
+      case 2:
+          head272image.src = "headBW/3.png";
+          break;
+      case 3:
+          head272image.src = "headBW/1.png";
+          break;
+  }
+});
+
+
+  

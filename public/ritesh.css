@@ -1,178 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
 
-.Heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6%;
+
+
+
+
+@font-face {
+  font-family: technopath;
+  src: url(fonts/Technopath.otf);
 }
-.faculty{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-} 
+
+.navbar {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+}
+
+.navbar .navbar-nav .nav-item a {
+  padding: 30px;
+}
+
+.nav-item {
+  font-size: 130%;
+  font-family: technopath;
+  margin-right: 5%;
+}
+
+.nav-link {
+  color: white !important;
+}
+.navbar-toggler {
+  color: white !important;
+}
+.navbar-toggler-icon {
+  color: aliceblue !important;
+  background-color: aliceblue;
+}
+
+.nav-link:hover {
+  color: #d246d2 ! important;
+  
+}
+
+.navbar-brand {
+  font-family: technopath;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************************* */
+body{
+  margin: 0%;
+  padding: 0%;
+  background: #0F0F0F;
+  width: 100%;
+  height: inherit;
+  min-width: 40vw;
+}
 .center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.staatliches-regular {
-    font-family: "Staatliches", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .staatliches-regular-thin {
-    font-family: "Staatliches", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-.font-size1{
-    font-size: 12rem;
+@font-face {
+  font-family: 'Pristina';
+  src: url('Pristina Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-.font-size2{
-    font-size: 11rem;
-    color: aliceblue;
+@font-face {
+  font-family: 'Technical Drawing';
+  src: url('TechnicalDrawing.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-.gradient-text {
-    background: linear-gradient(to right, #FFA566, #FF6E06);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-}
-.font-size3{
-    font-size: 4rem;
-    color: azure;
-}  
-.center1{
-    margin: 0% 50%;
-}
-/*Poppins*/
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-/*poppins*/  
-.gap{
+
+/* <!-- First Heading (Under the Guidance of)--> */
+
+.inline-center{
   display: inline;
   justify-content: center;
   align-items: center;
 }
 .font-size4{
-    font-size: 8rem;
-    color: aliceblue;
-    margin: 0%;
+  font-size: 8rem;
+  color: aliceblue;
+  margin: 0%;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
 }
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+/* <!-- First Heading (Under the Guidance of)--> */
 
 
-/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* <!-- Faculty Information --> */
+.faculty{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 32rem));
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Container to center the image and make it responsive */
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries for specific adjustments */
+@media (max-width: 1200px) {
+  .responsive-image {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .responsive-image {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-image {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .responsive-image {
+    max-width: 40%;
+  }
+}
+
+/* <!-- Faculty Information --> */
 
 
 
 
+
+/* <!-- (Project Section) -->
+
+
+
+
+
+<!-- Heading project animation --> */
+.font-size1{
+  font-size: 980%;
+}
+.gradient-text {
+  background: linear-gradient(to right, #FFA566, #FF6E06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-style: normal;
+  }
+.staatliches-regular-thin {
+  font-family: "Staatliches", sans-serif;
+  font-style: normal;
+}
+
+.font-size2{
+    font-size: 11rem;
+    color: aliceblue;
+}
+
+.font-size3{
+    font-size: 4rem;
+    color: azure;
+}  
+/*<!-- Heading project animation --> */
+
+
+
+
+/* <!-- Projects display --> */
 .container{
   width:100%;
   height: 100%;
@@ -184,19 +232,13 @@
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(1.5rem, 40rem));
+  grid-template-columns: repeat(auto-fit, minmax(1.5rem, 40rem));
   justify-content: center;
   align-items: center;
 }
 .image-box{
   align-self: center;
-}
-.project-title{
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-  z-index: -1;
+  position: relative;
 }
 .project-img{
   object-fit: cover;
@@ -207,7 +249,7 @@
   width: 100%;
 }
 :hover.image-box{
-  transform: scale(1.01);
+  transform: scale(1.02);
   transition: transform 0.4s;
 }
 .overlay {
@@ -221,21 +263,20 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #0f0f0fc7;
-  z-index: 1;
 }
 .image-box:hover .overlay {
   opacity: 1;
 }
-
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: aliceblue 1px 1px 1px ;
+  text-shadow: rgb(255, 255, 255) 0.4px 0.4px 2px ;
+  font-family: Technical Drawing, regular;
 }
 
 /*Code Button*/
@@ -289,48 +330,25 @@
   background-color: rgba(156, 156, 156, 0.466);
   backdrop-filter: blur(4px);
 }
+/*Code Button*/
 
-.facultyhead{
- background-color: #000;
+.extra_projects{
+  display: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* <!-- Explore All and Show less Button --> */
 .button {
-  line-height: 1;
+  line-height: 0;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: .75rem;
+  gap: .1rem;
   background-color: var(--clr);
   color: #fff;
-  border-radius: 2rem;
+  border-radius: 2.5rem;
   font-weight: 600;
-  padding: .75rem 1.5rem;
+  padding: .75rem 1rem;
   padding-left: 1rem;
   white-space: nowrap;
   overflow: hidden;
@@ -338,6 +356,9 @@
   transition: background-color .3s;
 }
 
+.explore_btn_size{
+  font-family: "Poppins", sans-serif;
+}
 .button__icon-wrapper {
   flex-shrink: 0;
   width: 1.75rem;
@@ -374,8 +395,15 @@
   transform: translate(0);
 }
 .explore_btn{
-  margin: 1% 0%  5% 45%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
-.extra_projects{
-  display: none;
-}
+/* <!-- Explore All and Show less Button --> */
+
+
+
+/* <!-- (Project Section) -->
+
+
+
+/* //Flipping the image of faculty when hovered */

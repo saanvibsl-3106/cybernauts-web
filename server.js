@@ -6,21 +6,13 @@ app.listen(7700,function(req,resp){
     console.log("started the port at 7700");
 });
 app.use(express.static("public"));
-
 const congObj={
     host:"127.0.0.1",
     user:"root",
     password:"San@1234",
     database:"cybernauts",
 }
-const mysql=mysql2.createConnection(congObj);
-mysql.connect(function(err)
-{
-    if(err===null)
-    console.log("connect to database");
-else 
-    console.log(err.message);
-})
+
 app.get("/",function(req,resp){
     let filepath=process.cwd()+"/public/index.html";
     resp.sendFile(filepath);
@@ -39,5 +31,9 @@ app.get("/",function(req,resp){
  })
  app.get("/events",function(req,resp){
     let filepath=process.cwd()+"/public/baani.html";
+    resp.sendFile(filepath);
+ })
+ app.get("/home",function(req,resp){
+    let filepath=process.cwd()+"/public/index.html";
     resp.sendFile(filepath);
  })

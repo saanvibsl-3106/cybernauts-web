@@ -17,7 +17,7 @@
       background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(3,37,74,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%); */
 }
 
-section {
+#landing{
   width: 100%;
   height: 100vh;
   background-image: url("pictures/cybernautsgif.gif");
@@ -132,22 +132,12 @@ html,
     background-clip: text;
 
 } */
-<<<<<<<<< Temporary merge branch 1
 .EVENT {
   color: white;
   font-size: 5rem;
   margin-left: 25%;
   margin-top: -10%;
   /* background: linear-gradient(180deg, rgb(241, 241, 197), white);
-=========
-
-.EVENT{
-    color:white;
-    font-size: 5rem;
-    margin-left: 25%;
-    margin-top: -10%;
-    /* background: linear-gradient(180deg, rgb(241, 241, 197), white);
->>>>>>>>> Temporary merge branch 2
     color: transparent;
     background-clip:text; */
 }
@@ -173,18 +163,9 @@ html,
   font-family: pristina;
 }
 
-<<<<<<<<< Temporary merge branch 1
 .events_body {
   background-color: #000000;
   /* background-image:url("https://th.bing.com/th/id/OIP.zHWdMDu779X19_WehLagqwHaEK?rs=1&pid=ImgDetMain");
-=========
-
-
-.events_body{
-    background-color: #000000;
-    height: 100%;
-    /* background-image:url("https://th.bing.com/th/id/OIP.zHWdMDu779X19_WehLagqwHaEK?rs=1&pid=ImgDetMain");
->>>>>>>>> Temporary merge branch 2
     background-repeat: no-repeat;
     background-size: cover; */
 

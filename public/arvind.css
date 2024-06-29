@@ -16,11 +16,14 @@
     font-size: 5rem;
     position: sticky;
     top: 10vh;
+    
     height: 100%;
     -webkit-text-stroke: 0;
   }
   
-  
+  .inner-left h2{
+    font-size: 7rem;
+  }
   
   .inner-right {
     min-width: 80vw;
@@ -245,13 +248,16 @@
     flex-direction: column;
     justify-content: center;
     font-family: technopath;
-    font-size: 5rem;
+    ;
     line-height: 7.5rem;
     padding-bottom: 8vw;
     width: 100vw;
+    margin-top: 5vh;
   }
   .clubHead-1 h1 {
     font-weight: 500;
+    font-size: 5rem
+
   }
   .clubHead-1 .p-the {
     font-family: technical;
@@ -263,7 +269,7 @@
     font-weight: 400;
   }
   .clubHead-2 {
-    padding-bottom: 2vw;
+    
     width: 100vw;
   }
   .clubHead-2 h2 {
@@ -272,7 +278,7 @@
     font-family: technical;
     font-weight: 400;
     font-size: 3.2rem;
-    margin:0 20rem 0 20rem;
+    margin:-5rem 20rem 0 20rem;
     
   }
   .clubHead-img {
@@ -327,4 +333,40 @@
       font-size: 1.5rem;
       margin: 5%
     }
+  }
+  .navbar {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    
+  }
+  
+  .navbar .navbar-nav .nav-item a {
+    padding: 30px;
+  }
+  
+  .nav-item {
+    font-size: 130%;
+    font-family: technopath;
+    margin-right: 5%;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  .navbar-toggler {
+    color: white !important;
+  }
+  .navbar-toggler-icon {
+    color: aliceblue !important;
+    background-color: aliceblue;
+  }
+  
+  .nav-link:hover {
+    color: #d246d2 ! important;
+    
+  }
+  
+  .navbar-brand {
+    font-family: technopath;
   }

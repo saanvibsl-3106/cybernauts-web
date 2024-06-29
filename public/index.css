@@ -3,7 +3,229 @@
   padding: 0;
   /* background-color: black; */
 }
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html{
+  width: 100vw;
+  background-color: black;
+}
+.about {
+  background-color: black;
+  height: 50vh;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: technical;
+  src: url(Fonts/TechnicalDrawing.ttf);
+}
+.abouttext {
+  width: 100vw;
+  height: auto;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 0 20%;
+  
+}
 
+.abouttext h1 {
+  font-size: 2.75rem;
+  font-family: technical;
+  
+}
+
+.abouttext h1 span {
+  font-family: technopath;
+  font-size: 2.5rem;
+}
+
+.abouttext p {
+  font-size: 1.25rem;
+  font-family: technical;
+  margin-top: 3rem;
+  text-align: justify;
+  line-height: 1.25rem;
+}
+
+.details {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 10vh;
+}
+
+.subdetails {
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 1em 0;
+  font-size: 16px;
+  font-family: technopath;
+  position: relative;
+  overflow: hidden;
+  transition: all 1s ease;
+  text-align: center;
+}
+
+.subdetails:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80%;
+  background-color: white;
+}
+
+.subdetails::before {
+  content: '';
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  width: 0;
+  height: 8px;
+  background-color: orange;
+  transition: width 1s ease;
+}
+
+.subdetails:hover::before {
+  width: 80%;
+}
+
+.subdetails i {
+  color: orange;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+span.num {
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+span.text {
+  color: #e0e0e0;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+  font-family: technical;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .details {
+      width: 100vw;
+  }
+  .subdetails {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+  }
+  .abouttext {
+      padding: 0 15%;
+  }
+  .abouttext h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+      width: 100vw;
+      flex-wrap: wrap;
+      gap: 30px;
+  }
+  .subdetails {
+      width:50vw;
+      height: 30vmin;
+      font-size: 1rem;
+  }
+  .abouttext {
+      padding: 0 10%;
+  }
+  .abouttext h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .details {
+      gap: 15px;
+  }
+  .subdetails {
+      width: 80%;
+      height: 40vmin;
+      font-size: 10px;
+  }
+  .abouttext {
+      padding: 0 5%;
+  }
+  .abouttext h1 {
+      font-size: 2rem;
+  }
+  .abouttext h1 span {
+      font-size: 1.75rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************************************aboout us***************** */
+/* *****************************************projects */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************code */
 .section1 {
   width: 100%;
   height: 100vh;
@@ -33,7 +255,7 @@
 
 .navbar {
   width: 100%;
-  height: 15%;
+  height: 10%;
   background-color: black;
 }
 
